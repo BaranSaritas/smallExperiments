@@ -1,6 +1,6 @@
-package com.smallExperiments.smallExperiments.GenericListener;
+package com.smallExperiments.smallExperiments.EventListenerExample.GenericListener;
 
-import com.smallExperiments.smallExperiments.model.GenericSpringEvent;
+import com.smallExperiments.smallExperiments.EventListenerExample.model.GenericSpringEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 

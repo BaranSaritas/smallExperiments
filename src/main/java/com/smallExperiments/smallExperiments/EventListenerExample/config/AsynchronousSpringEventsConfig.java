@@ -1,4 +1,4 @@
-package com.smallExperiments.smallExperiments.config;
+package com.smallExperiments.smallExperiments.EventListenerExample.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

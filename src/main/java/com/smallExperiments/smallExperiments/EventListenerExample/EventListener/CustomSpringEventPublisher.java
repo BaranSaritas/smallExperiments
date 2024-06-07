@@ -1,6 +1,6 @@
-package com.smallExperiments.smallExperiments.EventListener;
+package com.smallExperiments.smallExperiments.EventListenerExample.EventListener;
 
-import com.smallExperiments.smallExperiments.model.CustomSpringEvent;
+import com.smallExperiments.smallExperiments.EventListenerExample.model.CustomSpringEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;

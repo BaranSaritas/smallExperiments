@@ -1,7 +1,6 @@
-package com.smallExperiments.smallExperiments.AsyncEventListener;
+package com.smallExperiments.smallExperiments.EventListenerExample.AsyncEventListener;
 
-import com.smallExperiments.smallExperiments.model.CustomSpringAsync;
-import com.smallExperiments.smallExperiments.model.CustomSpringEvent;
+import com.smallExperiments.smallExperiments.EventListenerExample.model.CustomSpringAsync;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;

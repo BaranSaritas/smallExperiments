@@ -1,7 +1,5 @@
-package com.smallExperiments.smallExperiments.GenericListener;
-import com.smallExperiments.smallExperiments.model.GenericSpringEvent;
-import io.micrometer.common.lang.NonNull;
-import org.springframework.context.ApplicationListener;
+package com.smallExperiments.smallExperiments.EventListenerExample.GenericListener;
+import com.smallExperiments.smallExperiments.EventListenerExample.model.GenericSpringEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 

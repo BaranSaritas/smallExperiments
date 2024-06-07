@@ -1,4 +1,4 @@
-package com.smallExperiments.smallExperiments.model;
+package com.smallExperiments.smallExperiments.EventListenerExample.model;
 
 import org.springframework.context.ApplicationEvent;
 
