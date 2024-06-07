@@ -2,6 +2,7 @@ package com.smallExperiments.smallExperiments;
 
 import com.smallExperiments.smallExperiments.AsyncEventListener.CustomSpringEventPublisherAsync;
 import com.smallExperiments.smallExperiments.EventListener.CustomSpringEventPublisher;
+import com.smallExperiments.smallExperiments.GenericListener.GenericEventPublisher;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -13,6 +14,7 @@ public class SmallExperimentsApplication implements CommandLineRunner {
 
 	private final CustomSpringEventPublisher customSpringEventPublisher;
 	private final CustomSpringEventPublisherAsync customSpringEventPublisherAsync;
+	private final GenericEventPublisher genericEventPublisher;
 	public static void main(String[] args) {
 		SpringApplication.run(SmallExperimentsApplication.class, args);
 	}
@@ -27,7 +29,13 @@ public class SmallExperimentsApplication implements CommandLineRunner {
 
 		//ASYNC
 		for(int i = 0; i < 10; i++) {
-			customSpringEventPublisherAsync.publishCustomEvent("Spring"+i);
+			customSpringEventPublisherAsync.publishCustomEvent("ASYNC "+i);
+		}
+
+		System.out.println("================================");
+
+		for(int i = 0; i < 10; i++) {
+			genericEventPublisher.publishEvent("My Event", true);
 		}
 	}
 }
